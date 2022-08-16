@@ -1,0 +1,7 @@
+README
+
+Since it's Javascript, just run index.html. The UI should be straightfoward--Generate Points to generate random points on the canvas, click on canvas if you want to manually add points, Generate Hull to generate the convex hull (red is the sub-hulls, black final hull), and Clear to clear the canvas and the points.
+
+I didn't add UI to change the number of points, but in js/script.js there should be minNumPoints and maxNumPoints you can set to generate number of points between [b,t].
+
+Also, js/chanConvexHull.js can be used on any 2d point set so much as they are formatted as {x,y} and in viewport space rather than normal coordinates (0,0 on the top left).
