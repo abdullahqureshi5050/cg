@@ -180,8 +180,55 @@ var VoronoiDemo = {
         },
     };
 </script>
+
+<style>
+    form,
+    ul {
+      list-style-type: none;
+      margin: 0;
+      padding: 0;
+      overflow: hidden;
+      /* background-color: #333; */
+    }
+
+    .active {
+  padding: 15px;
+  margin: 5px;
+  border: 0;
+  border-radius: 5px;
+  color: #fff;
+  font-size: 22px;
+  background: #32b0ee;
+  transition: background-color .5s;
+  font-family: 'Josefin Sans', serif;
+  display: block;
+      color: white;
+      text-align: center;
+      padding: 14px 16px;
+      text-decoration: none;
+  }
+
+    li {
+      float: left;
+    }
+
+    li a:hover:not(.active) {
+      background-color: #111;
+    }
+
+  </style>
 </head>
 <body onload="VoronoiDemo.init();">
+   <!-- nav -->
+		<ul>
+			<li>
+			  <a class="active" href="../index.html"
+				>Back to Main Menu
+			  </a>
+			</li>
+			
+		  </ul>
+
     <!-- Steven Fortune's algorithm -->
     <h1>Voronoi diagrams<br/>Demo 1: measuring peformance</h1>
 <div id="divroot" style="width:800px;">

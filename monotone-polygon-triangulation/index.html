@@ -36,8 +36,60 @@
         border: 1px solid gray;
       }
     </style>
+
+<style>
+  form,
+  ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    /* background-color: #333; */
+  }
+
+  li a {
+padding: 15px;
+margin: 5px;
+border: 0;
+border-radius: 5px;
+color: #fff;
+font-size: 22px;
+background: #32b0ee;
+transition: background-color .5s;
+font-family: 'Josefin Sans', serif;
+}
+
+  li {
+    float: left;
+  }
+
+  span,
+  li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+
+  li a:hover:not(.active) {
+    background-color: #111;
+  }
+
+</style>
+
   </head>
   <body>
+    <!-- nav -->
+		<ul>
+			<li>
+			  <a class="active" href="../index.html"
+				>Back to Main Menu
+			  </a>
+			</li>
+			
+		  </ul>
+      
     <div id='root'>
       <canvas id='canvas' width='600' height='600'></canvas>
       <aside>

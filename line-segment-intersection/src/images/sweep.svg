@@ -38,6 +38,11 @@
 			<stop offset="100%" style="stop-color: #525; stop-opacity: 1;" />
 		</linearGradient>
 		<g id="info">
+			
+	  <a class="active" xlink:href="../../index.html"
+		><text x="20" y="7" class="text2 link" id="githublink">Back to Main Menu</text>
+	  </a>
+
 			<text x="-20" y="17" class="text1">M Abdullah Qureshi- MSCS21021</text>
 			<text x="5"  y="30" class="text2">a sweep line algorithm for line segment intersection</text>
 			<text x="14" y="43" class="text3">Draw a line to start!</text>
